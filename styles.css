@@ -72,6 +72,11 @@ form input {
     color: white;
 }
 
+form textarea {
+    border: none;
+    color: white;
+}
+
 .insta-sign:hover {
     color: inherit;
     text-decoration: underline;
