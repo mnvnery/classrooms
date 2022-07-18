@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFPRODISPLAYMEDIUM.OTF') format("opentype");
+}
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.3;
+}
+
+.background {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url('classrooms.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    color: white;
+}
+
+.main-logo {
+    max-width: 16vw;
+}
+
+.bottom-logos {
+    max-width: 10vw;
+    object-fit: contain;
+}
+
+.stansq_logo {
+    max-width: 4vw;
+}
+
+.text-red {
+    color: #e64647;
+}
+
+.smaller {
+    font-size: 0.75em;
+}
+
+.w-60 {
+    background-color: transparent;
+    margin-left: 1em;
+    width: 60%;
+}
+
+.text-area {
+    min-height: 15vh;
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-left: 1px solid white;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-sign {
+    color: inherit;
+    text-decoration: none;
+}
+
+form input {
+    border: none;
+    color: white;
+}
+
+.insta-sign:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+@media (min-width: 575.98px) {
+    .w-lg-50 {
+        width: 50%;
+    }
+    .w-lg-75 {
+        width: 75%;
+    }
+    .background {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .h-lg-50 {
+        height: 50%;
+    }
+
+    .h-lg-100 {
+        height: 100%;
+    }
+    .bottom-section {
+        align-items: flex-end;
+    }
+
+    .d-full-flex {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .main-logo {
+        max-width: 55vw;
+    }
+
+    .smaller {
+        font-size: 0.8em;
+    }
+
+    .bottom-section {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 6vh;
+    }
+
+    .insta-sign {
+        margin-bottom: 10vh;
+    }
+
+    .section-2 {
+        margin-top: 10vh;
+    }
+
+    .stansq_logo {
+        max-width: 10vw;
+    }
+
+    .bottom-logos {
+        max-width: 30vw;
+        object-fit: contain;
+        margin-top: 4vh;
+    }
+ 
+    .w-sm-100 {
+        width: 100%;
+    }
+
+}
